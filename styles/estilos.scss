@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Oswald:wght@300&family=Roboto:wght@300&family=Wix+Madefor+Text&display=swap');
+
+
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Wix Madefor Text', sans-serif;
+
+$width1: 100%;
+$height1: 85vh;
+
+$color1: rgb(148, 32, 3);
+$color2: rgb(220, 220, 220);
+
+$font1: 'Open Sans', sans-serif;
+$font2: 'Oswald', sans-serif;
+$font3: 'Roboto', sans-serif;
+$font4: 'Wix Madefor Text', sans-serif;
+// variables
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+
+
+}
+
+body {
+    font-family: $font1;
+    background-color: $color2;
+
+}
+
+.navbar-brand {
+    text-shadow: $color1;
+
+
+
+}
+
+span {
+    color: $color1;
+    text-shadow: 0px 0px 3px white;
+
+}
+
+.navbar {
+    background-color: $color1;
+    color: $color1;
+    border-bottom: white 2px solid;
+
+}
+
+.navbar-nav {
+    text-align: center;
+
+
+}
+
+
+
+#section1 {
+    width: $width1;
+    font-family: $font1;
+    text-align: center;
+    width: $width1;
+    height: $height1;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/img3/maquinapelo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    .jumbo {
+        margin: 0px 25px;
+        text-align: center;
+        align-items: center;
+        padding: 60px 20px;
+        color: white;
+
+
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        font-size: 50px;
+        border-bottom: 2px solid white;
+        border-top: 2px solid $color1;
+        text-shadow: 0px 0px 5px rgb(197, 8, 8);
+        animation-name: jumbo;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+        @keyframes jumbo {
+            0% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+
+        }
+
+
+    }
+
+    h3 {
+        padding: 20px;
+
+
+    }
+
+    button {
+        padding: 10px 15px;
+        border-radius: 20px;
+        margin-top: 30px;
+        color: white;
+        background-color: $color1;
+        text-transform: capitalize;
+        border: 1px solid black;
+        transition: all 0.8s;
+        margin-bottom: 20px;
+
+
+        &:hover {
+            color: $color1;
+            background-color: black;
+            border: 1px solid $color1;
+            transform: scale(1.2);
+            box-shadow: 0px 0px 5px $color1 ;
+        }
+
+
+    }
+
+
+}
+
+
+
+
+// sextion1 termina
+
+
+
+// section2
+#section2 {
+    width: $width1;
+    text-align: center;
+    background-color: $color2;
+    margin-bottom: 0;
+
+    h2 {
+        text-align: center;
+        padding: 20px;
+        background-color: $color1;
+        color: white;
+        font-weight: bold;
+        text-shadow: 0px 0px 2px $color1;
+        margin-bottom: 0;
+        box-shadow: 0px 0px 5px black;
+        font-family: $font2;
+
+    }
+
+    .left {
+        background-image: url(/img3/barberia2.jpg);
+        background-position: center;
+        background-size: cover;
+        height: calc($height1/2)+15;
+        margin: 10px 20px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px $color1;
+        border: solid 2px black;
+    }
+
+    .right {
+        margin: 10px 10px;
+        border-left: 2px solid $color1;
+        border-right: 2px solid $color1;
+
+        h4 {
+            font-weight: bold;
+            padding: 20px 5px;
+        }
+
+        p {
+            padding: 0px 10px;
+        }
+
+        .bottons2 {
+            padding: 10px 15px;
+            border-radius: 20px;
+            margin-top: 30px;
+            color: white;
+            background-color: $color1;
+            text-transform: capitalize;
+            border: 1px solid black;
+            transition: all 0.8s;
+            margin-bottom: 20px;
+
+
+            &:hover {
+                color: $color1;
+                background-color: black;
+                border: 1px solid $color1;
+                transform: scale(1.2);
+                box-shadow: 0px 0px 5px $color1 ;
+            }
+
+        }
+    }
+}
+
+// section2 termina
+
+
+
+// section3{
+#section3 {
+
+
+    width: $width1;
+
+    h2 {
+        text-align: center;
+        padding: 20px;
+        background-color: $color1;
+        color: white;
+        font-weight: bold;
+        text-shadow: 0px 0px 2px $color1;
+        margin-bottom: 0;
+        font-family: $font2;
+        margin-top: 0px;
+
+    }
+
+    .servicios {
+
+        text-align: center;
+
+        .cleansing {
+            height: calc($height1/2) +20;
+            background-image: url(/img3/cleansing.jpg);
+            background-position: center;
+            background-size: cover;
+            margin: 10px 15px;
+            border: solid 2px $color1;
+            border-radius: 15px;
+        }
+
+
+        .h3servicios {
+            margin: 10px 10px;
+            border-bottom: 2px solid $color1;
+            font-family: $font4;
+            text-shadow: 0px 0px 5px $color1;
+        }
+
+        .iconos {
+
+
+            .icono {
+                margin-top: 60px;
+            }
+
+            margin: 15px 0;
+            padding: 10px;
+
+            .iconoimg {
+                background-position: center;
+                background-size: cover;
+                height: 100px;
+                width: 100px;
+                text-align: center;
+                margin: auto;
+                border: 1px solid $color1;
+                padding: 20px;
+                border-radius: 100px;
+                box-shadow: 0px 0px 3px $color1;
+                margin-bottom: 30px;
+            }
+
+            .iconoimg1 {
+                background-image: url(/img3/corte.png);
+            }
+
+            .iconoimg2 {
+                background-image: url(/img3/corte\ y\ barva.png);
+            }
+
+            .iconoimg3 {
+                background-image: url(/img3/barba.png);
+            }
+
+            .iconoimg4 {
+                background-image: url(/img3/color.png);
+            }
+
+            h3 {
+                font-weight: bold;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+
+}
+
+// section3 termina
+
+
+
+
+// section4
+#section4 {
+    max-width: $width1;
+
+    h2 {
+        text-align: center;
+        padding: 20px;
+        background-color: $color1;
+        color: white;
+        font-weight: bold;
+        text-shadow: 0px 0px 2px $color1;
+        margin-bottom: 0;
+        font-family: $font2;
+
+    }
+
+    .items {
+        .ubicacion {
+            width: calc($width1/2);
+        }
+
+    }
+
+}
+
+// section4 termina
+
+
+
+// footer
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color1;
+    text-align: center;
+    padding: 15px;
+    color: $color2;
+    width: $width1;
+    border-top: 1px solid $color2;
+
+
+    .barber {
+        background-image: url(/img3/barbershop-g8bc6c52fd_1280.png);
+        background-size: cover;
+        background-position: center;
+        height: 100px;
+        width: 50px;
+        animation-name: barber;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+
+        @keyframes barber {
+            // 0%{
+            //     transform: translateY(1px);
+            // }
+
+            100% {
+                transform: translateY(-30px);
+            }
+        }
+
+    }
+
+    .redes {
+        margin-top: 10px;
+
+        h3 {
+            font-size: 20px;
+
+        }
+
+        h4 {
+            font-size: 10px;
+            margin-bottom: 0%;
+            padding: 0%;
+
+        }
+
+
+        a {
+            color: $color2;
+            padding: 10px 20px;
+            line-height: 40px;
+            font-size: 16px;
+            transition: all 0.8s;
+            font-weight: bold;
+
+            &:hover {
+                color: black;
+                transform: translateY(-10px);
+            }
+
+        }
+    }
+
+
+}
+
+// footer termina
+
+
+
+// nosotros
+#sec_nos {
+    width: $width1;
+    text-align: center;
+
+    .nosimg {
+        padding: 12px;
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("/img3/haircut-waxing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 60vh;
+
+        h2 {
+            margin: auto;
+            text-align: center;
+            color: $color2;
+            border-top: 2px solid $color1;
+            border-bottom: 2px solid $color1;
+            text-shadow: 0px 0px 3px $color1 ;
+            font-family: $font3;
+            font-size: 45px;
+        }
+
+
+    }
+
+    .nosotros {
+        .imgnos {
+            background-image: url(/img3/eyebrows.jpg);
+            width: $width1;
+            height: 65vh;
+            background-size: cover;
+            background-position: center;
+            border-bottom: 2px solid $color1;
+            border-top: 2px solid $color1;
+            filter: sepia(0%);
+            transition: all 0.7;
+
+            &:hover {
+                filter: sepia(100%);
+            }
+        }
+
+        .nos {
+            h2 {
+                margin: 10px 10px;
+                border-bottom: 2px solid $color1;
+                font-family: $font4;
+                text-shadow: 0px 0px 5px $color1;
+
+
+
+            }
+
+            p {
+                font-weight: bold;
+                padding: 15px 5px;
+            }
+
+            button {
+                padding: 10px 15px;
+                border-radius: 20px;
+                margin-top: 30px;
+                color: white;
+                background-color: $color1;
+                text-transform: capitalize;
+                border: 1px solid black;
+                transition: all 0.8s;
+                margin-bottom: 20px;
+
+                &:hover {
+                    color: $color1;
+                    background-color: black;
+                    border: 1px solid $color1;
+                    transform: scale(1.2);
+                    box-shadow: 0px 0px 5px $color1 ;
+                }
+            }
+
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+// nosotros termina
+
+
+// barberos
+.barberos {
+    text-align: center;
+
+    .tittlebarberos {
+        margin: 10px 10px;
+        border-bottom: 2px solid $color1;
+        font-family: $font4;
+        text-shadow: 0px 0px 5px $color1;
+        font-size: 30px;
+    }
+
+    .barbmainimg {
+
+        h2 {
+
+            margin: 120px 35px;
+            text-align: center;
+            color: $color2;
+            border-top: 2px solid $color1;
+            border-bottom: 2px solid $color1;
+            text-shadow: 0px 0px 3px $color1 ;
+            font-family: $font3;
+            font-size: 45px;
+        }
+
+        background-image: url(/img3/haircut.jpg);
+        width: $width1;
+        height: 65vh;
+        background-size: cover;
+        background-position: center;
+        border-bottom: 2px solid $color1;
+        border-top: 2px solid $color1;
+        filter: sepia(0%);
+        transition: all 0.8s;
+
+        &:hover {
+            filter: sepia(100%);
+        }
+
+
+
+    }
+
+    .barb {
+        padding: 15px;
+        margin-top: 20px;
+
+        .lado2 {
+            p {
+                font-weight: bold;
+                padding: 15px 10px;
+            }
+        }
+    }
+}
