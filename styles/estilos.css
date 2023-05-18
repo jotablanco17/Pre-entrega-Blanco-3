@@ -17,6 +17,7 @@ body {
 
 .navbar-brand {
   text-shadow: rgb(148, 32, 3);
+  text-align: center;
 }
 
 span {
@@ -32,6 +33,17 @@ span {
 
 .navbar-nav {
   text-align: center;
+  padding-top: 30px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 25px;
+  padding: 15px;
+  color: black;
+  font-family: "Wix Madefor Text", sans-serif;
+  text-transform: capitalize;
+  border-bottom: solid 1px rgb(114, 114, 114);
+  text-shadow: 0px 0px 5px rgb(220, 220, 220);
+  font-weight: bold;
 }
 
 #section1 {
@@ -40,7 +52,7 @@ span {
   text-align: center;
   width: 100%;
   height: 85vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img3/maquinapelo2.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img3/maquinapelo2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -54,7 +66,7 @@ span {
 }
 #section1 h1 {
   margin-bottom: 30px;
-  font-size: 50px;
+  font-size: 60px;
   border-bottom: 2px solid white;
   border-top: 2px solid rgb(148, 32, 3);
   text-shadow: 0px 0px 5px rgb(197, 8, 8);
@@ -73,6 +85,8 @@ span {
 }
 #section1 h3 {
   padding: 20px;
+  font-size: 28px;
+  text-shadow: 0px 0px 5px rgb(197, 8, 8);
 }
 #section1 button {
   padding: 10px 15px;
@@ -111,7 +125,7 @@ span {
   font-family: "Oswald", sans-serif;
 }
 #section2 .left {
-  background-image: url(/img3/barberia2.jpg);
+  background-image: url(../img3/barberia2.jpg);
   background-position: center;
   background-size: cover;
   height: 57.5vh;
@@ -170,7 +184,7 @@ span {
 }
 #section3 .servicios .cleansing {
   height: 62.5vh;
-  background-image: url(/img3/cleansing.jpg);
+  background-image: url(../img3/cleansing.jpg);
   background-position: center;
   background-size: cover;
   margin: 10px 15px;
@@ -204,16 +218,16 @@ span {
   margin-bottom: 30px;
 }
 #section3 .servicios .iconos .iconoimg1 {
-  background-image: url(/img3/corte.png);
+  background-image: url(../img3/corte.png);
 }
 #section3 .servicios .iconos .iconoimg2 {
-  background-image: url(/img3/corte\ y\ barva.png);
+  background-image: url(../img3/corte\ y\ barva.png);
 }
 #section3 .servicios .iconos .iconoimg3 {
-  background-image: url(/img3/barba.png);
+  background-image: url(../img3/barba.png);
 }
 #section3 .servicios .iconos .iconoimg4 {
-  background-image: url(/img3/color.png);
+  background-image: url(../img3/color.png);
 }
 #section3 .servicios .iconos h3 {
   font-weight: bold;
@@ -249,7 +263,7 @@ footer {
   border-top: 1px solid rgb(220, 220, 220);
 }
 footer .barber {
-  background-image: url(/img3/barbershop-g8bc6c52fd_1280.png);
+  background-image: url(../img3/barbershop-g8bc6c52fd_1280.png);
   background-size: cover;
   background-position: center;
   height: 100px;
@@ -292,11 +306,14 @@ footer .redes a:hover {
   width: 100%;
   text-align: center;
 }
+#sec_nos .objetivos {
+  display: none;
+}
 #sec_nos .nosimg {
   padding: 12px;
   display: flex;
   justify-content: space-around;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img3/haircut-waxing.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img3/haircut-waxing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -313,7 +330,7 @@ footer .redes a:hover {
   font-size: 45px;
 }
 #sec_nos .nosotros .imgnos {
-  background-image: url(/img3/eyebrows.jpg);
+  background-image: url(../img3/eyebrows.jpg);
   width: 100%;
   height: 65vh;
   background-size: cover;
@@ -370,7 +387,7 @@ footer .redes a:hover {
   font-size: 30px;
 }
 .barberos .barbmainimg {
-  background-image: url(/img3/haircut.jpg);
+  background-image: url(../img3/haircut.jpg);
   width: 100%;
   height: 65vh;
   background-size: cover;
@@ -393,11 +410,537 @@ footer .redes a:hover {
 .barberos .barbmainimg:hover {
   filter: sepia(100%);
 }
+.barberos .barb1 {
+  background-color: rgb(150, 153, 156);
+}
+.barberos .barb3 {
+  background-color: rgb(150, 153, 156);
+}
 .barberos .barb {
   padding: 15px;
   margin-top: 20px;
 }
+.barberos .barb .lado1 h3 {
+  color: rgb(148, 32, 3);
+  margin-top: 10px;
+}
+.barberos .barb .lado1 h4 {
+  font-family: "Roboto", sans-serif;
+}
+.barberos .barb .lado1 .info {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+.barberos .barb .lado1 .info a {
+  color: rgb(148, 32, 3);
+  transition: all 0.8s;
+  border-radius: 20px;
+  font-size: 35px;
+  border: 1px solid rgb(148, 32, 3);
+  padding: 10px;
+}
+.barberos .barb .lado1 .info a:hover {
+  transform: scale(1.2);
+  border: solid 1px rgb(220, 220, 220);
+  color: rgb(220, 220, 220);
+  background-color: rgb(148, 32, 3);
+}
+.barberos .barb .lado1 .barbimg1 {
+  background-image: url(../img3/barber-alan.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  border: solid 2px rgb(148, 32, 3);
+  width: 100%;
+  height: 40vh;
+  transition: all 0.8s;
+}
+.barberos .barb .lado1 .barbimg2 {
+  background-image: url(../img3/barber-john.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  border: solid 2px rgb(148, 32, 3);
+  width: 100%;
+  height: 40vh;
+  transition: all 0.8s;
+}
+.barberos .barb .lado1 .barbimg3 {
+  background-image: url(../img3/barber-michele.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  border: solid 2px rgb(148, 32, 3);
+  width: 100%;
+  height: 40vh;
+  transition: all 0.8s;
+}
+.barberos .barb .lado1 .barbimg4 {
+  background-image: url(../img3/beard.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  border: solid 2px rgb(148, 32, 3);
+  width: 100%;
+  height: 40vh;
+  transition: all 0.8s;
+  filter: sepia(100%);
+}
 .barberos .barb .lado2 p {
   font-weight: bold;
   padding: 15px 10px;
+}
+
+.sec_cortes {
+  text-align: center;
+}
+.sec_cortes .cortesimg {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img3/haircut-beard.jpg);
+  width: 100%;
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid rgb(148, 32, 3);
+  border-top: 2px solid rgb(148, 32, 3);
+  filter: sepia(0%);
+  transition: all 0.8s;
+}
+.sec_cortes .cortesimg h2 {
+  margin: 120px 35px;
+  text-align: center;
+  color: rgb(220, 220, 220);
+  border-top: 2px solid rgb(148, 32, 3);
+  border-bottom: 2px solid rgb(148, 32, 3);
+  text-shadow: 0px 0px 3px rgb(148, 32, 3);
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+.sec_cortes .cortestittle {
+  margin: 10px 10px;
+  border-bottom: 2px solid rgb(148, 32, 3);
+  font-family: "Wix Madefor Text", sans-serif;
+  text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  font-size: 30px;
+}
+.sec_cortes .row {
+  padding: 10px 15px;
+}
+.sec_cortes .row article {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(148, 32, 3);
+  height: 55vh;
+  margin: 20px 0px;
+  box-shadow: 2px 2px 5px rgb(148, 32, 3);
+}
+.sec_cortes .row .art1 {
+  background-image: url(../img3/corte1.jpg);
+}
+.sec_cortes .row .art2 {
+  background-image: url(../img3/corte2.jpg);
+}
+.sec_cortes .row .art3 {
+  background-image: url(../img3/corte3.png);
+}
+.sec_cortes .row .art4 {
+  background-image: url(../img3/corte4.jpg);
+}
+.sec_cortes .row .art5 {
+  background-image: url(../img3/corte5.jpg);
+}
+.sec_cortes .row .art6 {
+  background-image: url(../img3/corte6.jpg);
+}
+.sec_cortes .row .art7 {
+  background-image: url(../img3/corte7.jpg);
+}
+.sec_cortes .row .art8 {
+  background-image: url(../img3/corte8.jpg);
+}
+
+.turnos {
+  text-align: center;
+}
+.turnos .turnosimg {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img3/eyebrows.jpg);
+  width: 100%;
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid rgb(148, 32, 3);
+  border-top: 2px solid rgb(148, 32, 3);
+  filter: sepia(0%);
+  transition: all 0.8s;
+}
+.turnos .turnosimg h2 {
+  margin: 120px 35px;
+  text-align: center;
+  color: rgb(220, 220, 220);
+  border-top: 2px solid rgb(148, 32, 3);
+  border-bottom: 2px solid rgb(148, 32, 3);
+  text-shadow: 0px 0px 3px rgb(148, 32, 3);
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+.turnos .reserva {
+  padding: 10px 15px;
+  margin-bottom: 40px;
+}
+.turnos .reserva form {
+  margin-top: 40px;
+  height: 65vh;
+}
+.turnos .reserva form input {
+  padding-left: 10px;
+  margin: 12px 0px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.8s;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.turnos .reserva form input:focus {
+  border: 2px solid rgb(148, 32, 3);
+}
+.turnos .reserva form input::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: rgb(148, 32, 3);
+  font-weight: bold;
+}
+.turnos .reserva form input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: rgb(148, 32, 3);
+  font-weight: bold;
+}
+.turnos .reserva form button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(148, 32, 3);
+  text-transform: capitalize;
+  border: 1px solid black;
+  transition: all 0.8s;
+  margin-bottom: 20px;
+}
+.turnos .reserva form button:hover {
+  color: rgb(148, 32, 3);
+  background-color: black;
+  border: 1px solid rgb(148, 32, 3);
+  transform: scale(1.2);
+  box-shadow: 0px 0px 5px rgb(148, 32, 3);
+}
+.turnos .reserva h3 {
+  margin: 10px 10px;
+  border-bottom: 2px solid rgb(148, 32, 3);
+  font-family: "Wix Madefor Text", sans-serif;
+  text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  font-size: 30px;
+}
+.turnos .horarios {
+  background-color: rgb(184, 186, 189);
+}
+.turnos .horarios .left ul li {
+  margin: 60px 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.turnos .horarios .left h2 {
+  margin: 15px 10px;
+  border-bottom: 2px solid rgb(148, 32, 3);
+  font-family: "Wix Madefor Text", sans-serif;
+  text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  font-size: 30px;
+}
+.turnos .horarios .horariosimg {
+  margin: 10px 8px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img3/tijeraspelo3.jpg);
+  height: 62.5vh;
+  border-radius: 10px;
+  border: 2px solid rgb(148, 32, 3);
+}
+
+@media (min-width: 750px) {
+  .navbar {
+    background-image: linear-gradient(to right, rgb(148, 32, 3) 50%, rgb(95, 4, 4));
+  }
+  .navbar-brand {
+    font-size: 40px;
+    padding: 0px 20px;
+    text-shadow: 0px 2px 5px blue;
+  }
+  .navbar-nav .nav-item {
+    margin-left: 35px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    transition: all 0.8s;
+    padding: 0px 50px;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(220, 220, 220);
+    transform: translateY(-10px);
+  }
+  #section1 .jumbo {
+    height: 100vh;
+  }
+  #section1 .jumbo h1 {
+    font-size: 120px;
+    animation: none;
+    margin-top: 100px;
+  }
+  #section1 .jumbo h3 {
+    font-size: 40px;
+    margin-top: 120px;
+    animation-name: h3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes h3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+      transform: translatey(-10px);
+    }
+  }
+  #section1 .jumbo button {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  #section2 h2 {
+    font-size: 40px;
+  }
+  #section2 .flexx {
+    display: flex;
+  }
+  #section2 .flexx .left {
+    width: 70%;
+    margin: auto;
+    height: 73vh;
+  }
+  #section2 .flexx .right {
+    width: 60%;
+  }
+  #section2 .flexx .right h4 {
+    font-size: 40px;
+  }
+  #section2 .flexx .right p {
+    font-size: 25px;
+  }
+  #section2 .flexx .right .bottons2 {
+    font-size: 30px;
+  }
+  #section3 h2 {
+    font-size: 50px;
+  }
+  #section3 .h3servicios {
+    font-size: 50px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(148, 32, 3));
+  }
+  #section3 .iconos {
+    display: flex;
+    animation: none;
+    height: 50vh;
+  }
+  #section3 .icono {
+    width: 30%;
+    height: 200px;
+    transition: all 0.8s;
+  }
+  #section3 .icono:hover {
+    transform: scale(1.1);
+  }
+  #section3 .iconoimg {
+    width: 150px;
+    height: 150px;
+    transition: all 0.8s;
+  }
+  #section3 .iconoimg:hover {
+    transform: translateY(-10px);
+  }
+  .barberos .barbmainimg h2 {
+    font-size: 100px;
+    text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  .barberos .barb {
+    display: flex;
+    box-shadow: 2px 2px 5px rgb(148, 32, 3);
+  }
+  .barberos .barb .lado1 {
+    width: 50%;
+  }
+  .barberos .barb .lado1 .barbimg {
+    height: 55vh;
+    width: 80%;
+  }
+  .barberos .barb .lado1 h3, .barberos .barb .lado1 h4, .barberos .barb .lado1 .info {
+    margin-right: 80px;
+  }
+  .barberos .barb .lado2 {
+    width: 50%;
+  }
+  .barberos .barb .lado2 p {
+    font-size: 25px;
+    padding: 100px 20px;
+  }
+  .barberos .barb2 .lado1 {
+    order: 2;
+  }
+  .barberos .barb2 .lado2 {
+    order: 1;
+  }
+  .barberos .barb4 .lado1 {
+    order: 2;
+  }
+  .barberos .tittlebarberos {
+    font-size: 50px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(148, 32, 3));
+  }
+  footer {
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(148, 32, 3) 50%, rgb(95, 4, 4));
+  }
+  footer .redes h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  footer .redes a {
+    font-size: 40px;
+    padding: 5px 30px;
+  }
+  footer .redes h4 {
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  footer .barber {
+    display: none;
+  }
+  #sec_nos .nosimg h2 {
+    font-size: 100px;
+    text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  #sec_nos .nosotros {
+    display: flex;
+    height: 80vh;
+    margin: auto;
+  }
+  #sec_nos .nosotros .imgnos {
+    width: 300%;
+    height: 50vh;
+    margin: aut;
+    margin-top: 70px;
+  }
+  #sec_nos .nosotros .imgnos:hover {
+    filter: none;
+  }
+  #sec_nos .objetivos {
+    display: flex;
+    background-color: white;
+  }
+  #sec_nos .objetivos .obj {
+    margin: auto;
+    padding: 0px 30px;
+    width: 95%;
+  }
+  #sec_nos .objetivos .obj h2 {
+    margin: 80px 10px;
+    border-bottom: 2px solid rgb(148, 32, 3);
+    font-family: "Wix Madefor Text", sans-serif;
+    text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  #sec_nos .objetivos .obj p {
+    font-weight: bold;
+  }
+  #sec_nos .objetivos .obj button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(148, 32, 3);
+    text-transform: capitalize;
+    border: 1px solid black;
+    transition: all 0.8s;
+    margin-bottom: 20px;
+  }
+  #sec_nos .objetivos .obj button:hover {
+    color: rgb(148, 32, 3);
+    background-color: black;
+    border: 1px solid rgb(148, 32, 3);
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  #sec_nos .objetivos .imgobj1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img3/waxing.jpg);
+    height: 70vh;
+    width: 100%;
+    margin: 30px 15px;
+  }
+  #sec_nos .objetivos .imgobj2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img3/barber-john.jpg);
+    height: 70vh;
+    width: 100%;
+    margin: 30px 15px;
+  }
+  .turnos .turnosimg h2 {
+    font-size: 100px;
+    text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  .turnos .reserva {
+    background-image: linear-gradient(to bottom, rgb(220, 220, 220), rgb(148, 32, 3));
+  }
+  .turnos .reserva h3 {
+    font-size: 40px;
+  }
+  .turnos .reserva form input {
+    width: 50%;
+    height: 50px;
+  }
+  .turnos .reserva form input::-moz-placeholder {
+    font-size: 20px;
+  }
+  .turnos .reserva form input::placeholder {
+    font-size: 20px;
+  }
+  .turnos .reserva form button {
+    display: block;
+    margin: auto;
+  }
+  .turnos .horarios {
+    display: flex;
+  }
+  .turnos .horarios .left {
+    width: 100%;
+  }
+  .turnos .horarios .horariosimg {
+    height: 50vh;
+    width: 80%;
+    margin: 20px 30px;
+  }
+  .sec_cortes .cortesimg h2 {
+    font-size: 100px;
+    text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  .sec_cortes .cortestittle {
+    font-size: 35px;
+    background-image: linear-gradient(to right, rgb(220, 220, 220) 50%, rgb(148, 32, 3));
+  }
 }/*# sourceMappingURL=estilos.css.map */
