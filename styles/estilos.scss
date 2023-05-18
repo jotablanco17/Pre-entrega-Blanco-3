@@ -946,7 +946,7 @@ footer {
     }
 
     .navbar-brand {
-        font-size: 40px;
+        font-size: 30px;
         padding: 0px 20px;
         text-shadow: 0px 2px 5px blue;
     }
@@ -958,7 +958,7 @@ footer {
 
             .nav-link {
                 transition: all 0.8s;
-                padding: 0px 50px;
+                padding: 0px 30px;
 
                 &:hover {
                     color: $color2;
@@ -1002,8 +1002,7 @@ footer {
             }
 
             button {
-                font-size: 30px;
-                margin-top: 30px;
+                    display: none;
             }
         }
     }
@@ -1265,7 +1264,7 @@ footer {
         }
 
         .reserva{
-
+            margin-bottom: 0px;
             background-image: linear-gradient(to bottom, $color2, $color1);
             h3{ 
                 font-size: 40px;
@@ -1289,6 +1288,7 @@ footer {
             }
         }
         .horarios{
+            margin-top: 0px;
             display: flex;
 
             .left{

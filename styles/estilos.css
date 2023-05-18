@@ -676,7 +676,7 @@ footer .redes a:hover {
     background-image: linear-gradient(to right, rgb(148, 32, 3) 50%, rgb(95, 4, 4));
   }
   .navbar-brand {
-    font-size: 40px;
+    font-size: 30px;
     padding: 0px 20px;
     text-shadow: 0px 2px 5px blue;
   }
@@ -685,7 +685,7 @@ footer .redes a:hover {
   }
   .navbar-nav .nav-item .nav-link {
     transition: all 0.8s;
-    padding: 0px 50px;
+    padding: 0px 30px;
   }
   .navbar-nav .nav-item .nav-link:hover {
     color: rgb(220, 220, 220);
@@ -717,8 +717,7 @@ footer .redes a:hover {
     }
   }
   #section1 .jumbo button {
-    font-size: 30px;
-    margin-top: 30px;
+    display: none;
   }
   #section2 h2 {
     font-size: 40px;
@@ -905,6 +904,7 @@ footer .redes a:hover {
     text-shadow: 0px 0px 5px rgb(148, 32, 3);
   }
   .turnos .reserva {
+    margin-bottom: 0px;
     background-image: linear-gradient(to bottom, rgb(220, 220, 220), rgb(148, 32, 3));
   }
   .turnos .reserva h3 {
@@ -925,6 +925,7 @@ footer .redes a:hover {
     margin: auto;
   }
   .turnos .horarios {
+    margin-top: 0px;
     display: flex;
   }
   .turnos .horarios .left {
