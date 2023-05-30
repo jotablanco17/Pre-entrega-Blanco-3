@@ -52,7 +52,7 @@ span {
   text-align: center;
   width: 100%;
   height: 85vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img3/maquinapelo2.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquinapelo2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -125,7 +125,7 @@ span {
   font-family: "Oswald", sans-serif;
 }
 #section2 .left {
-  background-image: url(../img3/barberia2.jpg);
+  background-image: url(../img/barberia2.jpg);
   background-position: center;
   background-size: cover;
   height: 57.5vh;
@@ -184,7 +184,7 @@ span {
 }
 #section3 .servicios .cleansing {
   height: 62.5vh;
-  background-image: url(../img3/cleansing.jpg);
+  background-image: url(../img/cleansing.jpg);
   background-position: center;
   background-size: cover;
   margin: 10px 15px;
@@ -218,16 +218,16 @@ span {
   margin-bottom: 30px;
 }
 #section3 .servicios .iconos .iconoimg1 {
-  background-image: url(../img3/corte.png);
+  background-image: url(../img/corte.png);
 }
 #section3 .servicios .iconos .iconoimg2 {
-  background-image: url(../img3/corte\ y\ barva.png);
+  background-image: url(../img/corte\ y\ barva.png);
 }
 #section3 .servicios .iconos .iconoimg3 {
-  background-image: url(../img3/barba.png);
+  background-image: url(../img/barba.png);
 }
 #section3 .servicios .iconos .iconoimg4 {
-  background-image: url(../img3/color.png);
+  background-image: url(../img/color.png);
 }
 #section3 .servicios .iconos h3 {
   font-weight: bold;
@@ -263,7 +263,7 @@ footer {
   border-top: 1px solid rgb(220, 220, 220);
 }
 footer .barber {
-  background-image: url(../img3/barbershop-g8bc6c52fd_1280.png);
+  background-image: url(../img/barbershop-g8bc6c52fd_1280.png);
   background-size: cover;
   background-position: center;
   height: 100px;
@@ -313,7 +313,7 @@ footer .redes a:hover {
   padding: 12px;
   display: flex;
   justify-content: space-around;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img3/haircut-waxing.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/haircut-waxing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -330,7 +330,7 @@ footer .redes a:hover {
   font-size: 45px;
 }
 #sec_nos .nosotros .imgnos {
-  background-image: url(../img3/eyebrows.jpg);
+  background-image: url(../img/eyebrows.jpg);
   width: 100%;
   height: 65vh;
   background-size: cover;
@@ -387,7 +387,7 @@ footer .redes a:hover {
   font-size: 30px;
 }
 .barberos .barbmainimg {
-  background-image: url(../img3/haircut.jpg);
+  background-image: url(../img/haircut.jpg);
   width: 100%;
   height: 65vh;
   background-size: cover;
@@ -447,7 +447,7 @@ footer .redes a:hover {
   background-color: rgb(148, 32, 3);
 }
 .barberos .barb .lado1 .barbimg1 {
-  background-image: url(../img3/barber-alan.jpg);
+  background-image: url(../img/barber-alan.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -457,7 +457,7 @@ footer .redes a:hover {
   transition: all 0.8s;
 }
 .barberos .barb .lado1 .barbimg2 {
-  background-image: url(../img3/barber-john.jpg);
+  background-image: url(../img/barber-john.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -467,7 +467,7 @@ footer .redes a:hover {
   transition: all 0.8s;
 }
 .barberos .barb .lado1 .barbimg3 {
-  background-image: url(../img3/barber-michele.jpg);
+  background-image: url(../img/barber-michele.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -477,7 +477,7 @@ footer .redes a:hover {
   transition: all 0.8s;
 }
 .barberos .barb .lado1 .barbimg4 {
-  background-image: url(../img3/beard.jpg);
+  background-image: url(../img/beard.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -496,7 +496,7 @@ footer .redes a:hover {
   text-align: center;
 }
 .sec_cortes .cortesimg {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img3/haircut-beard.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/haircut-beard.jpg);
   width: 100%;
   height: 65vh;
   background-size: cover;
@@ -539,35 +539,35 @@ footer .redes a:hover {
   box-shadow: 2px 2px 5px rgb(148, 32, 3);
 }
 .sec_cortes .row .art1 {
-  background-image: url(../img3/corte1.jpg);
+  background-image: url(../img/corte1.jpg);
 }
 .sec_cortes .row .art2 {
-  background-image: url(../img3/corte2.jpg);
+  background-image: url(../img/corte2.jpg);
 }
 .sec_cortes .row .art3 {
-  background-image: url(../img3/corte3.png);
+  background-image: url(../img/corte3.png);
 }
 .sec_cortes .row .art4 {
-  background-image: url(../img3/corte4.jpg);
+  background-image: url(../img/corte4.jpg);
 }
 .sec_cortes .row .art5 {
-  background-image: url(../img3/corte5.jpg);
+  background-image: url(../img/corte5.jpg);
 }
 .sec_cortes .row .art6 {
-  background-image: url(../img3/corte6.jpg);
+  background-image: url(../img/corte6.jpg);
 }
 .sec_cortes .row .art7 {
-  background-image: url(../img3/corte7.jpg);
+  background-image: url(../img/corte7.jpg);
 }
 .sec_cortes .row .art8 {
-  background-image: url(../img3/corte8.jpg);
+  background-image: url(../img/corte8.jpg);
 }
 
 .turnos {
   text-align: center;
 }
 .turnos .turnosimg {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img3/eyebrows.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/eyebrows.jpg);
   width: 100%;
   height: 65vh;
   background-size: cover;
@@ -589,6 +589,7 @@ footer .redes a:hover {
   font-weight: bold;
 }
 .turnos .reserva {
+  background-image: linear-gradient(to bottom, rgb(220, 220, 220), rgb(148, 32, 3));
   padding: 10px 15px;
   margin-bottom: 40px;
 }
@@ -665,27 +666,30 @@ footer .redes a:hover {
   margin: 10px 8px;
   background-position: center;
   background-size: cover;
-  background-image: url(../img3/tijeraspelo3.jpg);
+  background-image: url(../img/tijeraspelo3.jpg);
   height: 62.5vh;
   border-radius: 10px;
   border: 2px solid rgb(148, 32, 3);
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
   .navbar {
     background-image: linear-gradient(to right, rgb(148, 32, 3) 50%, rgb(95, 4, 4));
+    display: flex;
+    flex-direction: column;
   }
   .navbar-brand {
-    font-size: 30px;
-    padding: 0px 20px;
+    font-size: 40px;
+    padding: 0px 15px;
     text-shadow: 0px 2px 5px blue;
   }
   .navbar-nav .nav-item {
-    margin-left: 35px;
+    margin-left: 10px;
   }
   .navbar-nav .nav-item .nav-link {
     transition: all 0.8s;
     padding: 0px 30px;
+    font-size: 25px;
   }
   .navbar-nav .nav-item .nav-link:hover {
     color: rgb(220, 220, 220);
@@ -695,7 +699,7 @@ footer .redes a:hover {
     height: 100vh;
   }
   #section1 .jumbo h1 {
-    font-size: 120px;
+    font-size: 80px;
     animation: none;
     margin-top: 100px;
   }
@@ -717,43 +721,51 @@ footer .redes a:hover {
     }
   }
   #section1 .jumbo button {
+    font-weight: bold;
     display: none;
   }
   #section2 h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   #section2 .flexx {
     display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
   }
   #section2 .flexx .left {
     width: 70%;
     margin: auto;
     height: 73vh;
+    margin-top: 30px;
   }
   #section2 .flexx .right {
+    border: none;
+    margin: auto;
     width: 60%;
   }
   #section2 .flexx .right h4 {
-    font-size: 40px;
+    margin-top: 35px;
+    font-size: 23px;
   }
   #section2 .flexx .right p {
-    font-size: 25px;
+    font-size: 18px;
   }
   #section2 .flexx .right .bottons2 {
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 15px;
   }
   #section3 h2 {
-    font-size: 50px;
+    font-size: 35px;
   }
   #section3 .h3servicios {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 50px;
     background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(148, 32, 3));
   }
   #section3 .iconos {
     display: flex;
     animation: none;
-    height: 50vh;
+    height: 65vh;
   }
   #section3 .icono {
     width: 30%;
@@ -793,7 +805,7 @@ footer .redes a:hover {
     width: 50%;
   }
   .barberos .barb .lado2 p {
-    font-size: 25px;
+    font-size: 20px;
     padding: 100px 20px;
   }
   .barberos .barb2 .lado1 {
@@ -835,20 +847,21 @@ footer .redes a:hover {
   }
   #sec_nos .nosotros {
     display: flex;
-    height: 80vh;
+    flex-direction: column;
     margin: auto;
   }
   #sec_nos .nosotros .imgnos {
-    width: 300%;
+    width: 100%;
     height: 50vh;
-    margin: aut;
-    margin-top: 70px;
+    margin: auto;
+    margin: 50px 0px;
   }
   #sec_nos .nosotros .imgnos:hover {
     filter: none;
   }
   #sec_nos .objetivos {
-    display: flex;
+    display: none;
+    flex-direction: column;
     background-color: white;
   }
   #sec_nos .objetivos .obj {
@@ -886,7 +899,7 @@ footer .redes a:hover {
   #sec_nos .objetivos .imgobj1 {
     background-position: center;
     background-size: cover;
-    background-image: url(../img3/waxing.jpg);
+    background-image: url(../img/waxing.jpg);
     height: 70vh;
     width: 100%;
     margin: 30px 15px;
@@ -894,7 +907,7 @@ footer .redes a:hover {
   #sec_nos .objetivos .imgobj2 {
     background-position: center;
     background-size: cover;
-    background-image: url(../img3/barber-john.jpg);
+    background-image: url(../img/barber-john.jpg);
     height: 70vh;
     width: 100%;
     margin: 30px 15px;
@@ -910,6 +923,9 @@ footer .redes a:hover {
   .turnos .reserva h3 {
     font-size: 40px;
   }
+  .turnos .reserva form {
+    height: 80vh;
+  }
   .turnos .reserva form input {
     width: 50%;
     height: 50px;
@@ -921,6 +937,8 @@ footer .redes a:hover {
     font-size: 20px;
   }
   .turnos .reserva form button {
+    font-weight: bold;
+    margin-top: 30px;
     display: block;
     margin: auto;
   }
@@ -934,7 +952,8 @@ footer .redes a:hover {
   .turnos .horarios .horariosimg {
     height: 50vh;
     width: 80%;
-    margin: 20px 30px;
+    margin: auto;
+    margin-right: 30px;
   }
   .sec_cortes .cortesimg h2 {
     font-size: 100px;
@@ -943,5 +962,151 @@ footer .redes a:hover {
   .sec_cortes .cortestittle {
     font-size: 35px;
     background-image: linear-gradient(to right, rgb(220, 220, 220) 50%, rgb(148, 32, 3));
+  }
+}
+@media (min-width: 1024px) {
+  .navbar .navbar-brand {
+    font-size: 60px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 30px;
+    padding: 15px 40px;
+  }
+  #section1 .jumbo h1 {
+    font-size: 110px;
+  }
+  #section2 .h2index {
+    font-size: 40px;
+  }
+  #section2 .flexx {
+    display: flex;
+    flex-direction: row;
+  }
+  #section2 .flexx .left .barberiaimg {
+    padding: 20px 20px;
+    margin: 15px 20px;
+  }
+  #section2 .flexx .right h4 {
+    font-size: 40px;
+    padding: 20px 15px;
+  }
+  #section2 .flexx .right p {
+    font-size: 22px;
+  }
+  #section3 h2 {
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .barberos .barbmainimg h2 {
+    font-size: 100px;
+    text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  .barberos .barb {
+    display: flex;
+    box-shadow: 2px 2px 5px rgb(148, 32, 3);
+  }
+  .barberos .barb .lado1 {
+    width: 50%;
+  }
+  .barberos .barb .lado1 .barbimg {
+    height: 44vh;
+    width: 80%;
+  }
+  .barberos .barb .lado1 h3, .barberos .barb .lado1 h4, .barberos .barb .lado1 .info {
+    margin-right: 80px;
+  }
+  .barberos .barb .lado2 {
+    width: 50%;
+  }
+  .barberos .barb .lado2 p {
+    font-size: 25px;
+    padding: 100px 20px;
+  }
+  .barberos .barb2 .lado1 {
+    order: 2;
+  }
+  .barberos .barb2 .lado2 {
+    order: 1;
+  }
+  .barberos .barb4 .lado1 {
+    order: 2;
+  }
+  .barberos .tittlebarberos {
+    font-size: 50px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(148, 32, 3));
+  }
+  #sec_nos .nosimg h2 {
+    font-size: 100px;
+    text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  #sec_nos .nosotros {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    margin: auto;
+  }
+  #sec_nos .nosotros .imgnos {
+    width: 300%;
+    height: 50vh;
+    margin: aut;
+    margin-top: 70px;
+  }
+  #sec_nos .nosotros .imgnos:hover {
+    filter: none;
+  }
+  #sec_nos .objetivos {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  }
+  #sec_nos .objetivos .obj {
+    margin: auto;
+    padding: 0px 30px;
+    width: 95%;
+  }
+  #sec_nos .objetivos .obj h2 {
+    margin: 80px 10px;
+    border-bottom: 2px solid rgb(148, 32, 3);
+    font-family: "Wix Madefor Text", sans-serif;
+    text-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  #sec_nos .objetivos .obj p {
+    font-weight: bold;
+  }
+  #sec_nos .objetivos .obj button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(148, 32, 3);
+    text-transform: capitalize;
+    border: 1px solid black;
+    transition: all 0.8s;
+    margin-bottom: 20px;
+  }
+  #sec_nos .objetivos .obj button:hover {
+    color: rgb(148, 32, 3);
+    background-color: black;
+    border: 1px solid rgb(148, 32, 3);
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px rgb(148, 32, 3);
+  }
+  #sec_nos .objetivos .imgobj1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/waxing.jpg);
+    height: 70vh;
+    width: 100%;
+    margin: 30px 15px;
+  }
+  #sec_nos .objetivos .imgobj2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/barba.png);
+    height: 70vh;
+    width: 100%;
+    margin: 30px 15px;
   }
 }/*# sourceMappingURL=estilos.css.map */

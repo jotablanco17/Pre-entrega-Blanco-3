@@ -90,7 +90,7 @@ span {
     height: $height1;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../img3/maquinapelo2.jpg");
+            rgba(0, 0, 0, 0.5)), url("../img/maquinapelo2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -203,7 +203,7 @@ span {
     }
 
     .left {
-        background-image: url(../img3/barberia2.jpg);
+        background-image: url(../img/barberia2.jpg);
         background-position: center;
         background-size: cover;
         height: calc($height1/2)+15;
@@ -280,7 +280,7 @@ span {
 
         .cleansing {
             height: calc($height1/2) +20;
-            background-image: url(../img3/cleansing.jpg);
+            background-image: url(../img/cleansing.jpg);
             background-position: center;
             background-size: cover;
             margin: 10px 15px;
@@ -321,19 +321,18 @@ span {
             }
 
             .iconoimg1 {
-                background-image: url(../img3/corte.png);
+                background-image: url(../img/corte.png);
             }
 
             .iconoimg2 {
-                background-image: url(../img3/corte\ y\ barva.png);
+                background-image: url(../img/corte\ y\ barva.png);
             }
 
             .iconoimg3 {
-                background-image: url(../img3/barba.png);
+                background-image: url(../img/barba.png);
             }
-
             .iconoimg4 {
-                background-image: url(../img3/color.png);
+                background-image: url(../img/color.png);
             }
 
             h3 {
@@ -395,7 +394,7 @@ footer {
 
 
     .barber {
-        background-image: url(../img3/barbershop-g8bc6c52fd_1280.png);
+        background-image: url(../img/barbershop-g8bc6c52fd_1280.png);
         background-size: cover;
         background-position: center;
         height: 100px;
@@ -475,7 +474,7 @@ footer {
         justify-content: space-around;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("../img3/haircut-waxing.jpg");
+                rgba(0, 0, 0, 0.5)), url("../img/haircut-waxing.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -497,7 +496,7 @@ footer {
 
     .nosotros {
         .imgnos {
-            background-image: url(../img3/eyebrows.jpg);
+            background-image: url(../img/eyebrows.jpg);
             width: $width1;
             height: 65vh;
             background-size: cover;
@@ -583,7 +582,7 @@ footer {
             font-size: 45px;
         }
 
-        background-image: url(../img3/haircut.jpg);
+        background-image: url(../img/haircut.jpg);
         width: $width1;
         height: 65vh;
         background-size: cover;
@@ -647,7 +646,7 @@ footer {
             }
 
             .barbimg1 {
-                background-image: url(../img3/barber-alan.jpg);
+                background-image: url(../img/barber-alan.jpg);
                 background-position: center;
                 background-size: cover;
 
@@ -659,7 +658,7 @@ footer {
             }
 
             .barbimg2 {
-                background-image: url(../img3/barber-john.jpg);
+                background-image: url(../img/barber-john.jpg);
                 background-position: center;
                 background-size: cover;
 
@@ -671,7 +670,7 @@ footer {
             }
 
             .barbimg3 {
-                background-image: url(../img3/barber-michele.jpg);
+                background-image: url(../img/barber-michele.jpg);
                 background-position: center;
                 background-size: cover;
 
@@ -685,7 +684,7 @@ footer {
             }
 
             .barbimg4 {
-                background-image: url(../img3/beard.jpg);
+                background-image: url(../img/beard.jpg);
                 background-position: center;
                 background-size: cover;
 
@@ -716,7 +715,7 @@ footer {
     .cortesimg {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url(../img3/haircut-beard.jpg);
+                rgba(0, 0, 0, 0.5)), url(../img/haircut-beard.jpg);
         width: $width1;
         height: 65vh;
         background-size: cover;
@@ -765,35 +764,35 @@ footer {
         }
 
         .art1 {
-            background-image: url(../img3/corte1.jpg);
+            background-image: url(../img/corte1.jpg);
         }
 
         .art2 {
-            background-image: url(../img3/corte2.jpg);
+            background-image: url(../img/corte2.jpg);
         }
 
         .art3 {
-            background-image: url(../img3/corte3.png);
+            background-image: url(../img/corte3.png);
         }
 
         .art4 {
-            background-image: url(../img3/corte4.jpg);
+            background-image: url(../img/corte4.jpg);
         }
 
         .art5 {
-            background-image: url(../img3/corte5.jpg);
+            background-image: url(../img/corte5.jpg);
         }
 
         .art6 {
-            background-image: url(../img3/corte6.jpg);
+            background-image: url(../img/corte6.jpg);
         }
 
         .art7 {
-            background-image: url(../img3/corte7.jpg);
+            background-image: url(../img/corte7.jpg);
         }
 
         .art8 {
-            background-image: url(../img3/corte8.jpg);
+            background-image: url(../img/corte8.jpg);
         }
 
     }
@@ -809,7 +808,7 @@ footer {
     .turnosimg {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url(../img3/eyebrows.jpg);
+                rgba(0, 0, 0, 0.5)), url(../img/eyebrows.jpg);
         width: $width1;
         height: 65vh;
         background-size: cover;
@@ -833,6 +832,7 @@ footer {
     }
 
     .reserva {
+        background-image: linear-gradient(to bottom, $color2, $color1);
         padding: 10px 15px;
         margin-bottom: 40px;
 
@@ -927,7 +927,7 @@ footer {
             margin: 10px 8px;
             background-position: center;
             background-size: cover;
-            background-image: url(../img3/tijeraspelo3.jpg);
+            background-image: url(../img/tijeraspelo3.jpg);
             height: calc($height1/2)+20;
             border-radius: 10px;
             border: 2px solid $color1;
@@ -939,26 +939,30 @@ footer {
 
 
 // media
-@media (min-width:750px) {
+@media (min-width:768px) {
 
     .navbar {
         background-image: linear-gradient(to right, $color1 50%, rgb(95, 4, 4));
+        display: flex;
+        flex-direction: column;
     }
 
     .navbar-brand {
-        font-size: 30px;
-        padding: 0px 20px;
+        font-size: 40px;
+        padding: 0px 15px;
         text-shadow: 0px 2px 5px blue;
+        
     }
 
     .navbar-nav {
 
         .nav-item {
-            margin-left: 35px;
+            margin-left: 10px;
 
             .nav-link {
                 transition: all 0.8s;
                 padding: 0px 30px;
+                font-size: 25px;
 
                 &:hover {
                     color: $color2;
@@ -976,7 +980,7 @@ footer {
             height: 100vh;
 
             h1 {
-                font-size: 120px;
+                font-size: 80px;
                 animation: none;
                 margin-top: 100px;
             }
@@ -1002,6 +1006,7 @@ footer {
             }
 
             button {
+                    font-weight: bold;
                     display: none;
             }
         }
@@ -1009,31 +1014,38 @@ footer {
 
     #section2 {
         h2 {
-            font-size: 40px;
+            font-size: 30px;
         }
 
         .flexx {
             display: flex;
+            flex-direction: column;
+            margin: 0px 30px;
 
             .left {
                 width: calc($width1/2)+20;
                 margin: auto;
                 height: 73vh;
+                margin-top: 30px;
             }
 
             .right {
+                border: none;
+                margin: auto;
                 width: 60%;
 
                 h4 {
-                    font-size: 40px;
+                    margin-top: 35px;
+                    font-size: 23px;
                 }
 
                 p {
-                    font-size: 25px;
+                    font-size: 18px;
                 }
 
                 .bottons2 {
-                    font-size: 30px;
+                    font-weight: bold;
+                    font-size: 15px;
                 }
             }
         }
@@ -1043,11 +1055,11 @@ footer {
     #section3 {
 
         h2 {
-            font-size: 50px;
+            font-size: 35px;
         }
 
         .h3servicios {
-            font-size: 50px;
+            font-size: 40px;
             margin-top: 50px;
             background-image: linear-gradient(to right, $color2, $color1)
         }
@@ -1055,7 +1067,7 @@ footer {
         .iconos {
             display: flex;
             animation: none;
-            height: 50vh;
+            height: 65vh;
 
         }
 
@@ -1110,7 +1122,7 @@ footer {
                 width: 50%;
 
                 p {
-                    font-size: 25px;
+                    font-size: 20px;
                     padding: 100px 20px;
                 }
             }
@@ -1178,16 +1190,17 @@ footer {
 
         .nosotros{
             display: flex;
-            height: 80vh;
+            flex-direction: column;
+            // height: 80vh;
             margin: auto;
             
     
             
             .imgnos{
-                width: 300%;
+                width: 100%;
                 height: 50vh;
-                margin: aut;
-                margin-top: 70px;
+                margin: auto;
+                margin:50px 0px ;
 
                 &:hover{
                     filter:none;
@@ -1196,7 +1209,8 @@ footer {
         }
 
         .objetivos{
-            display: flex;
+            display: none;
+            flex-direction: column;
             background-color: white;
 
             .obj{
@@ -1239,7 +1253,7 @@ footer {
             .imgobj1{
                 background-position: center;
                 background-size: cover;
-                background-image: url(../img3/waxing.jpg);
+                background-image: url(../img/waxing.jpg);
                 height: 70vh;
                 width: 100%;
                 margin: 30px 15px;
@@ -1247,7 +1261,7 @@ footer {
             .imgobj2{
                 background-position: center;
                 background-size: cover;
-                background-image: url(../img3/barber-john.jpg);
+                background-image: url(../img/barber-john.jpg);
                 height: 70vh;
                 width: 100%;
                 margin: 30px 15px;
@@ -1271,6 +1285,7 @@ footer {
             }
 
             form{
+                height: 80vh;
                 input{
                     width: 50%;
                     height: 50px;
@@ -1282,6 +1297,8 @@ footer {
                 }
 
                 button{
+                    font-weight: bold;
+                    margin-top: 30px;
                     display: block;
                     margin: auto;
                 }
@@ -1298,7 +1315,8 @@ footer {
             .horariosimg{
                 height: 50vh;
                 width: 80%;
-                margin: 20px 30px;
+                margin: auto;
+                margin-right: 30px;
             }
         }
     }
@@ -1318,4 +1336,219 @@ footer {
     }
 
 
+}
+
+@media (min-width:1024px){
+
+    .navbar{
+        .navbar-brand{
+            font-size: 60px;
+        }
+    }
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                font-size: 30px;
+                padding: 15px 40px;
+            }
+        }
+    }
+
+    #section1{
+        .jumbo{
+            h1{
+                font-size: 110px;
+            }
+        }
+    }
+
+    #section2{
+        .h2index{
+            font-size: 40px;
+        }
+        .flexx{
+            display: flex;
+            flex-direction: row;
+
+            .left{
+                .barberiaimg{
+                    padding: 20px 20px;
+                    margin: 15px 20px;
+                    
+                }
+            }
+
+            .right{
+                h4{
+                    font-size: 40px;
+                    padding: 20px 15px;
+                }
+                p{
+                    font-size:22px ;
+                }
+            }
+        }
+    }
+    
+    #section3{
+        h2{
+            margin-top: 40px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+    }
+
+
+    
+
+    .barberos {
+
+        .barbmainimg{
+            h2{
+                font-size: 100px;
+                text-shadow: 0px 0px 5px $color1;
+            }
+        }
+        .barb {
+            display: flex;
+            box-shadow: 2px 2px 5px $color1;
+            
+            
+
+            .lado1 {
+                width: 50%;
+
+                .barbimg{
+                    height:44vh ; 
+                    width: 80%;
+                }
+
+                h3, h4, .info{
+                    margin-right: 80px;
+                }
+            }
+
+            .lado2 {
+                width: 50%;
+
+                p {
+                    font-size: 25px;
+                    padding: 100px 20px;
+                }
+            }
+
+        }
+        .barb2{
+            .lado1{
+                order:2 ;
+            }
+            .lado2{
+                order:1;
+            }
+        }
+
+        .barb4{
+            .lado1{
+                order: 2;
+            }
+        }
+
+        .tittlebarberos{
+            font-size: 50px;
+            margin-top: 50px;
+            background-image:linear-gradient(to right, $color2, $color1)
+        }
+    }
+
+    #sec_nos {
+        .nosimg{
+            h2{
+                font-size: 100px;
+                text-shadow: 0px 0px 5px $color1;
+
+
+                
+            }
+        }
+
+        .nosotros{
+            display: flex;
+            flex-direction: row;
+            height: 80vh;
+            margin: auto;
+            
+    
+            
+            .imgnos{
+                width: 300%;
+                height: 50vh;
+                margin: aut;
+                margin-top: 70px;
+
+                &:hover{
+                    filter:none;
+                }
+            }
+        }
+
+        .objetivos{
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+
+            .obj{
+                margin: auto;
+                padding: 0px 30px;
+                width: 95%;
+
+                h2{
+                    margin:80px 10px;
+                border-bottom: 2px solid $color1;
+                font-family: $font4;
+                text-shadow: 0px 0px 5px $color1;
+                }
+
+                p{
+                    font-weight: bold;
+                }
+
+                button{
+                    padding: 10px 15px;
+                border-radius: 20px;
+                margin-top: 30px;
+                color: white;
+                background-color: $color1;
+                text-transform: capitalize;
+                border: 1px solid black;
+                transition: all 0.8s;
+                margin-bottom: 20px;
+
+                &:hover {
+                    color: $color1;
+                    background-color: black;
+                    border: 1px solid $color1;
+                    transform: scale(1.2);
+                    box-shadow: 0px 0px 5px $color1 ;
+                }
+                }
+            }
+
+            .imgobj1{
+                background-position: center;
+                background-size: cover;
+                background-image: url(../img/waxing.jpg);
+                height: 70vh;
+                width: 100%;
+                margin: 30px 15px;
+            }
+            .imgobj2{
+                background-position: center;
+                background-size: cover;
+                background-image: url(../img/barba.png);
+                height: 70vh;
+                width: 100%;
+                margin: 30px 15px;
+            }
+        }
+    }
 }
